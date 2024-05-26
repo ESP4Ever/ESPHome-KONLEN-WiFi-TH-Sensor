@@ -55,7 +55,7 @@ wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
   output_power: 18
-  #use_address: 192.168.200.99
+  #use_address: 192.168.xxx.xxx
   power_save_mode: LIGHT #NONE LIGHT HIGH
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
