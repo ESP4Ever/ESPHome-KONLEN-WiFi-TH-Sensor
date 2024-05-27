@@ -4,4 +4,9 @@ WARNING:
  - The I2C external sensor will not work due to GPIO conflict and shall be replaced to one from DHT series. I used AM2302
  - This project is obsolete and may require code updates.
 
-![](/Screenshot%202024-05-26%20125539.png)
+![](/pictures/KONLEN_WiFi_T&H_Sensor.png)
+
+
+![What's inside-1](/pictures/inside1.jpg)
+![What's inside-1](/pictures/inside2.jpg)
+
