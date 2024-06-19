@@ -1,0 +1,12 @@
+TXD0 - J1/
+RXD0 - J1/
+GPIO05 - External button (Inv)
+GPIO04 - TM1638/DIO
+GPIO00 - S2 button (Inv)
+GPIO02 - S1 button (Inv)
+GPIO15 - Buzzer
+
+GPIO13 - TM1638/STB
+GPIO12 - TM1638/CLK + I2C/SCK
+GPIO14 - I2C/SDA
+GPIO16 - LED (Inv)
