@@ -8,5 +8,5 @@ WARNING:
 
 
 ![What's inside-1](/pictures/inside1.jpg)
-![What's inside-1](/pictures/inside2.jpg)
-
+![What's inside-2](/pictures/inside2.jpg)
+![What's inside-3](/pictures/inside3.jpg)
