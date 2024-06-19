@@ -131,11 +131,17 @@ display:
     platform: tm1638
     id: gn1638_display
     stb_pin: GPIO13
-    clk_pin: GPIO12
+    clk_pin: GPIO12 # Shared Pin (CLK/SCL)
     dio_pin: GPIO4
     intensity: 1 # 0...7
     #update_interval: 1s
     lambda: |-
+
+# i2c:
+#   sda: GPIO14
+#   scl: GPIO12 # Conflict with TM1638
+#   scan: true
+#   id: i2c_bus1
 
 ####################
 #     BUTTONS      #
@@ -159,7 +165,7 @@ button:
 sensor:
   # Temperature Sensor
   - platform: dht
-    pin: GPIO14
+    pin: GPIO14 # SDA
     model: AM2302 # AUTO_DETECT, DHT11, DHT22, DHT22_TYPE2, AM2302, RHT03, SI7021
     update_interval: 15s
     temperature:
